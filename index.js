@@ -1,6 +1,5 @@
 import * as singleSpa from 'single-spa';
 
-
 singleSpa.registerApplication({
     name: 'foo',
     app: () => import('./micro-frontends/foo.js'),
